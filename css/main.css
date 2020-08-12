@@ -731,7 +731,7 @@ background: #F4F5F5;
         transform: rotate(-10deg);
     }
     70% {
-        transform: rotate(3deg);
+        transform: rotate(5deg);
     }
     to {
         opacity: 1;
