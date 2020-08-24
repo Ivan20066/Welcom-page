@@ -1,5 +1,7 @@
 body {
-    /* background: #17191C; */
+    margin: 0;
+    padding: 0;
+    background: #17191C;
     color: #ffffff;
     font-size: 16px;
     line-height: 1.42;
@@ -33,11 +35,12 @@ p {
     height: 100%;
 }
 .wrapper {
-    /* display: flex;
+    
+    display: flex;
     flex-direction:column;
     min-height: 100%;
     overflow: hidden;
-    min-width: 1200px; */
+    min-width: 1200px;
 }
 .main-pege-wrapper {
     background: url(../img/hero.jpg) center top no-repeat, url(../img/bottom-pic.jpg) center bottom 300px no-repeat ;
@@ -707,7 +710,7 @@ background: #F4F5F5;
     height: 100%;
     align-items: center;
     justify-content:center; 
-    background: url(/img/rec.png) center no-repeat, url(../img/bottom-pic1.jpg)  center bottom / cover no-repeat ;
+    background: url(../img/rec.png) center no-repeat, url(../img/bottom-pic1.jpg)  center bottom / cover no-repeat ;
     
 }
 .central__logo {
